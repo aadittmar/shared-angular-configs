@@ -1,0 +1,54 @@
+{
+  "name": "@dittmar/shared-angular-configs",
+  "version": "1.0.0",
+  "description": "Shared ESLint, Prettier, and TypeScript configurations for Angular projects (ESLint 9+ Flat Config)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "eslint.js",
+    "prettier.config.js",
+    "tsconfig.base.json",
+    "README.md"
+  ],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "prettier-config",
+    "angular",
+    "typescript",
+    "tsconfig",
+    "shared-config",
+    "flat-config"
+  ],
+  "author": "aadittmar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dittmar/shared-angular-configs.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "@angular-eslint/eslint-plugin": ">=17.0.0",
+    "@angular-eslint/eslint-plugin-template": ">=17.0.0",
+    "@angular-eslint/template-parser": ">=17.0.0",
+    "@eslint/js": ">=9.0.0",
+    "@typescript-eslint/eslint-plugin": ">=6.0.0",
+    "@typescript-eslint/parser": ">=6.0.0",
+    "eslint": ">=9.0.0",
+    "prettier": ">=3.0.0",
+    "typescript": ">=5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prepublishOnly": "node -e \"console.log('Publishing @dittmar/shared-angular-configs')\""
+  },
+  "bugs": {
+    "url": "https://github.com/dittmar/shared-angular-configs/issues"
+  },
+  "homepage": "https://github.com/dittmar/shared-angular-configs#readme"
+}

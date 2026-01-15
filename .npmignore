@@ -1,0 +1,10 @@
+# Ignore development files
+.git/
+.gitignore
+.idea/
+.vscode/
+*.log
+node_modules/
+
+# Only include what's needed for the package
+# Everything else is ignored by default
