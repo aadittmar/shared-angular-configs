@@ -126,6 +126,23 @@ module.exports = {
 };
 ```
 
+### npm Configuration (.npmrc)
+
+Copy the shared `.npmrc` file to your project root:
+
+```bash
+cp node_modules/@dittmar/shared-angular-configs/.npmrc .npmrc
+```
+
+Or manually create a `.npmrc` file with the shared settings. The shared configuration includes:
+
+- **Exact version saving** - No `^` or `~` in package.json
+- **Package lock enabled** - For consistent installs
+- **Engine strict** - Enforce Node.js version requirements
+- **Moderate audit level** - Security vulnerability checking
+
+You can override any settings by adding your own values to your project's `.npmrc` file.
+
 ## What's Included
 
 ### ESLint Rules
@@ -171,6 +188,16 @@ The Prettier config includes:
 - **LF** line endings
 - **Angular parser** for HTML templates with single attribute per line
 - File-specific overrides for `.ts`, `.html`, and `.scss`
+
+### npm Configuration
+
+The shared `.npmrc` includes:
+
+- **Exact versioning** (`save-exact=true`) - No `^` or `~` prefixes
+- **Package lock** enabled for consistent installs
+- **Engine strict** mode for Node.js version enforcement
+- **Moderate audit level** for security checks
+- **Optimized settings** for team consistency
 
 ## Peer Dependencies
 
