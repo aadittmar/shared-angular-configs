@@ -1,6 +1,6 @@
 {
   "name": "@dittmar/shared-angular-configs",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Shared ESLint, Prettier, and TypeScript configurations for Angular projects (ESLint 9+ Flat Config)",
   "main": "index.js",
   "files": [
