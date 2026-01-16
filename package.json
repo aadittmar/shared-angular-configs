@@ -8,7 +8,7 @@
     "eslint.js",
     "prettier.config.js",
     "tsconfig.base.json",
-    ".npmrc",
+    "npmrc",
     "README.md"
   ],
   "keywords": [

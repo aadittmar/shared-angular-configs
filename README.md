@@ -128,10 +128,10 @@ module.exports = {
 
 ### npm Configuration (.npmrc)
 
-Copy the shared `.npmrc` file to your project root:
+Copy the shared `npmrc` file to your project root as `.npmrc`:
 
 ```bash
-cp node_modules/@dittmar/shared-angular-configs/.npmrc .npmrc
+cp node_modules/@dittmar/shared-angular-configs/npmrc .npmrc
 ```
 
 Or manually create a `.npmrc` file with the shared settings. The shared configuration includes:

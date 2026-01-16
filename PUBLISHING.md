@@ -117,6 +117,14 @@ Or use in `package.json`:
 }
 ```
 
+### Configure npm (.npmrc)
+Copy the shared npm configuration:
+```bash
+cp node_modules/@dittmar/shared-angular-configs/npmrc .npmrc
+```
+
+This provides team-wide npm settings for consistency.
+
 ### Configure TypeScript
 Update `tsconfig.json`:
 ```json
