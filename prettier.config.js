@@ -23,6 +23,7 @@ module.exports = {
         printWidth: 200,
         htmlWhitespaceSensitivity: 'ignore',
         singleAttributePerLine: true,
+        bracketSameLine: true,
       },
     },
     {
