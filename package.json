@@ -26,7 +26,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dittmar/shared-angular-configs.git"
+    "url": "git+https://github.com/aadittmar/shared-angular-configs.git"
   },
   "engines": {
     "node": ">=18.0.0"
