@@ -42,6 +42,7 @@ module.exports = [
         FormData: 'readonly',
         Blob: 'readonly',
         File: 'readonly',
+        structuredClone: 'readonly',
       },
     },
     plugins: {
